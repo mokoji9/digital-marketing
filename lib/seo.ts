@@ -211,4 +211,4 @@ export const seo = {
 
 export type SeoKey = keyof typeof seo;
 
-export const allPages = Object.values(seo);
+export const allPages: PageSeo[] = Object.values(seo);
